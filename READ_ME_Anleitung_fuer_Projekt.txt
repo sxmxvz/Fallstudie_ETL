@@ -8,11 +8,13 @@
 
 4. ETL_Project in C:\xampp\mysql\data verschieben (siehe Screenshot bei Unsicherheit)
 
-5. VSCode installieren
+5. Ordner in C:\xampp\mysql\data\ETL_Project erstellen namens: "ETL Daten"  (Github lädt keine leeren Ordner hoch)
 
-6. ETL_Project in VSCode öffnen (rechtsklick auf Ordner -> öffnen mit...)
+6. VSCode installieren
 
-7. alle nötigen Bibs installieren, falls nicht vorhanden
+7. ETL_Project in VSCode öffnen (rechtsklick auf Ordner -> öffnen mit...)
+
+8. alle nötigen Bibs installieren, falls nicht vorhanden
 
 	from faker import Faker
 	from faker.providers import DynamicProvider
@@ -25,15 +27,15 @@
 	import mysql.connector
 	import csv
 
-8. .data_generator_project.ipynb per VSCODE ausführen 
+9. .data_generator_project.ipynb per VSCODE ausführen 
 
-9. per XAMPP MYSQL Server starten
+10. per XAMPP MYSQL Server starten
 
-10. .ETL.ipynb per VSCODE ausführen
+11. .ETL.ipynb per VSCODE ausführen
 
-11. Prozess laufen lassen (kann mehrere Stunden dauer, da große Datenmenge)
+12. Prozess laufen lassen (kann mehrere Stunden dauer, da große Datenmenge)
 
-12. Datenbank aufrufen z.B. per MYSQL Workbench und folgende Befehle in die Query eingeben
+13. Datenbank aufrufen z.B. per MYSQL Workbench und folgende Befehle in die Query eingeben
 
 	use firma;
 
